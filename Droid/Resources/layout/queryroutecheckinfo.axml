@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/queryroutecheckinfoview_lbStartAirportName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:text="TPE"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/queryroutecheckinfoview_lbterminal"
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="30dp"
+        android:text="桃園國際機場第二航廈"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/queryroutecheckinfoview_lbterminalenglishname"
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="30dp"
+        android:text="Taoyuan International Airport Terminal 2"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/queryroutecheckinfoview_lbEndAirportName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:text="HKG"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/queryroutecheckinfoview_lbnote"
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="櫃檯 2,6,7,9 \n(班機起飛前二小時報到)\n(起飛前四十分鐘準時結束作業)"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/queryroutecheckinfoview_lbphone"
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="03-12345678#1234"
+        android:textSize="20sp"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/queryroutecheckinfoview_lbwebsite"
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="http://www.google.com"
+        android:layout_height="40dp" />
+</LinearLayout>

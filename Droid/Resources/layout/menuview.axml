@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8383ff">
+    <Button
+        android:id="@+id/menuview_btnQueryFlight"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:text="查詢班機資訊" />
+    <Button
+        android:id="@+id/menuview_btnQueryPassRecord"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/menuview_btnQueryFlight"
+        android:text="查詢電子機票記錄" />
+    <Button
+        android:id="@+id/menuview_btnQueryAirportCheckInfo"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/menuview_btnQueryPassRecord"
+        android:text="各地機場報到資訊" />
+</RelativeLayout>
